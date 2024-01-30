@@ -4,6 +4,8 @@
 // include needed C and header files 
 #include "BasicIo.c"
 #include "Decisions.c"
+#include "Loop.c"
+#include "Functions.c"
 
 int main(void){
     /*BasicIo*/
@@ -17,4 +19,26 @@ int main(void){
     //decisions4();
     //decisions5();
     //decision6();
+
+    /*Loops*/
+    //loops1();
+    //loops2();
+    //loops3();
+    //loops4();
+    //loops5();
+    //recursion(START);
+    
+    /*Functions*/
+    //declare 3 character arrays 
+    char student[] = "Sue Ceklosky";
+    char language[] = "C";
+    char programmer[] = "Dennis Richie";
+
+    congratulate1(student,language,programmer);
+    congratulate2(student,language,programmer);
+
+    printf ("%.1f degrees celsius = %.1f degrees fahrenheit.\n", 0.0, fahrenheitFromCelsius(0.0));
+    printf ("%.1f degrees celsius = %.1f degrees fahrenheit.\n", 100.0, fahrenheitFromCelsius(0.0));
 }
+
+    

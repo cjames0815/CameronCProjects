@@ -7,7 +7,7 @@
 // create macro expressions (constants)
 #define CONDITION(i) (i > STOP)
 #define BREAK(i) (i == 5)
-#define CONTINUE (i) (i % 2)
+#define CONTINUE(i) (i % 2)
 
 //include C header file
 #include <stdio.h>
@@ -19,4 +19,4 @@ void loop3(void);
 void loop4(void);
 void loop5(void);
 void loop6(void);
-void recursion(void);
+void recursion(int);
