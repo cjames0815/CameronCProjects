@@ -10,5 +10,5 @@
 
 //functions declarations
 void congratulate1(char *, char *, char *);
-void congratulate1(char *, char *, char *);
+void congratulate2(char *, char *, char *);
 float fahrenheitFromCelsius(float);
